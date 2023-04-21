@@ -1,0 +1,21 @@
+:root {
+    --color-primary-1: #060047;
+    --color-primary-2: #201A61;
+    --color-primary-3:#00002E;
+    --color-secondary-1:#B3005E;
+    --color-secondary-2:#E63391;
+    --color-secondary-3:#80002B;
+    --color-contrast-1:#E90064;
+    --color-contrast-2:#FF5F9E;
+    --white:white;
+    --black:black;
+
+    --main-font-family: Arial;
+    --secondary-font-family: Times;
+
+    --title-content:24px;
+    --body-content:14px;
+    --mini-content:8px;
+    --subtitle-content:18px;
+
+  }
