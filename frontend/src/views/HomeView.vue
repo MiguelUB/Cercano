@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import SearchPlace from '../components/SearchPlaceComponent.vue'
+import Map from '../components/MapComponent.vue'
 </script>
+
 
 <template>
   <main>
-    <TheWelcome />
+    <SearchPlace/>
+    <Map/>
   </main>
 </template>
+

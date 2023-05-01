@@ -1,6 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
 import NavbarComponentVue from './components/NavbarComponent.vue'
 
 </script>
@@ -8,12 +7,16 @@ import NavbarComponentVue from './components/NavbarComponent.vue'
 <template>
   <header>
     <NavbarComponentVue/>
+    <main>
     <RouterView/>
-
+  </main>
   </header>
-
 </template>
 
 <style scoped>
+main{
+  top: 20px;
+  width: 100%;
+}
 
 </style>
